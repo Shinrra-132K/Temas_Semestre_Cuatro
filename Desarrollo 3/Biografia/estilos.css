@@ -1,0 +1,324 @@
+body {
+    background-color: rgb(13, 12, 10);
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    width: 1430px;
+    height: 100px;
+    margin-top: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(13, 12, 10, 0.5);
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+
+.barra p {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+.btn-warning:first-of-type {
+    margin-left: 1040px;
+    z-index: 2;
+}
+
+.btn-warning {
+    margin-left: 40px;
+    z-index: 2;
+}
+
+img {
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    left: 830px;
+    top: 0;
+    z-index: 1;
+}
+
+
+h1 {
+    font-size: 80px;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+h2 {
+    font-size: 55px;
+    font-family: "Lucida Handwriting", Times, serif;
+    position: absolute;
+    top: 445px;
+    left: 50px;
+}
+
+
+h3 {
+    font-size: 15px;
+    font-family: "Courier New", Times, serif;
+    position: absolute;
+    color: orange;
+    top: 330px;
+    left: 50px;
+}
+
+
+h4 {
+    color: orange;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid orange;
+    text-align: center;
+    position: absolute;
+    top: 530px;
+    left: 50px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 2px 12px;
+}
+
+
+h5 {
+    color: orange;
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid orange;
+    text-align: center;
+    position: absolute;
+    top: 530px;
+    left: 175px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 2px 12px;
+}
+
+h6 {
+    color: orange;
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid orange;
+    text-align: center;
+    position: absolute;
+    top: 530px;
+    left: 330px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 2px 12px;
+}
+
+
+h7 {
+    font-size: 15px;
+    font-family: "Courier New", Times, serif;
+    position: absolute;
+    color: orange;
+    top: 150px;
+    left: 100px;
+}
+
+
+h8 {
+    color: white;
+    text-align: left;
+    font-size: 10.5px;
+    position: absolute;
+    right: 580px;
+    left: 50px;
+    top: 190px;
+}
+
+
+h9 {
+    font-size: 80px;
+    position: absolute;
+    top: 160px;
+    left: 140px;
+    color: white;
+    font-family: "Copperplate", fantasy;
+}
+
+
+h10 {
+    font-size: 70px;
+    font-family: "Lucida Handwriting", Times, serif;
+    position: absolute;
+    top: 235px;
+    left: 125px;
+}
+
+.fotoCurry {
+    width: 180px;
+    height: 220px;
+    position: absolute;
+    top: 140px;
+    left: 1220px;
+    transform: rotate(20deg);
+}
+
+
+.bask {
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    top: 130px;
+    left: 920px;
+    transform: rotate(-20deg);
+}
+
+
+.ring {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 150px;
+    left: 1080px;
+    transform: rotate(30deg);
+}
+
+
+.flores {
+    width: 180px;
+    height: 290px;
+    position: absolute;
+    top: 190px;
+    left: 900px;
+    transform: rotate(-30deg);
+}
+
+.penya {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 260px;
+    left: 1200px;
+    transform: rotate(30deg);
+}
+
+
+.realidad {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 285px;
+    left: 1020px;
+    transform: rotate(-30deg);
+}
+
+
+.melani {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 400px;
+    left: 1170px;
+    transform: rotate(30deg);
+}
+
+.jd {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 430px;
+    left: 900px;
+    transform: rotate(30deg);
+}
+
+
+.jul {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 480px;
+    left: 1050px;
+    transform: rotate(-30deg);
+}
+
+.tabla-contenedor {
+    width: 1400px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    margin: 40px 0;
+    box-sizing: border-box;
+}
+
+
+.intereses {
+    width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+.intereses tr {
+    height: 140px;
+}
+
+.intereses td {
+    width: 25%;
+    height: 140px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid #252525;
+    vertical-align: top;
+    text-align: left;
+}
+
+.intereses .icono {
+    display: block;
+    font-size: 28px;
+    margin: 0 0 20px 0;
+}
+
+.intereses .nombre {
+    display: block;
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+.intereses td {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.intereses td:hover {
+    background-color: orange;
+}
+
+.intereses td:hover .nombre {
+    color: black;
+}
+
+.btn-warning {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: black;
+    color: orange;
+    border-color: gray;
+}
+.barra img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 10px;
+}
